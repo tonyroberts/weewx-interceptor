@@ -410,8 +410,16 @@ class Consumer(object):
         'extraHumid6': 'humidity_6',
         'extraHumid7': 'humidity_7',
         'extraHumid8': 'humidity_8',
+        'soilMoist5': 'soil_moisture_5',
+        'soilMoist6': 'soil_moisture_6',
+        'soilMoist7': 'soil_moisture_7',
+        'soilMoist8': 'soil_moisture_8',
         'soilTemp3': 'soil_temperature_3',
         'soilTemp4': 'soil_temperature_4',
+        'soilTemp5': 'soil_temperature_5',
+        'soilTemp6': 'soil_temperature_6',
+        'soilTemp7': 'soil_temperature_7',
+        'soilTemp8': 'soil_temperature_8'
     }
 
     def default_sensor_map(self):
